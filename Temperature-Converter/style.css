@@ -1,0 +1,52 @@
+body {
+    font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 101, 101);
+}
+
+h1 {
+    color: hsl(281, 86%, 38%);
+}
+
+form {
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(281, 86%, 40%, 0.3);
+}
+
+#textBox {
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 5px solid hsla(0, 0%, 0%, 0.8);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(60, 16, 255);
+}
+
+button {
+    margin-top: 15px;
+    font-size: 1.5em;
+    border: none;
+    background-color: hsl(128, 72%, 58%);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(129, 83%, 42%);
+}
+
+#result {
+    font-size: 1.75em;
+    font-weight: bold;
+}
